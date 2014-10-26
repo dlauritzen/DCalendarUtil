@@ -13,6 +13,7 @@
 		304BBCB119FC99BB000452EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304BBCB019FC99BB000452EA /* Images.xcassets */; };
 		304BBCB419FC99BB000452EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304BBCB219FC99BB000452EA /* LaunchScreen.xib */; };
 		304BBCC019FC99BB000452EA /* DCalendarUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BBCBF19FC99BB000452EA /* DCalendarUtilTests.swift */; };
+		304BBCCA19FC9A4C000452EA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 304BBCC919FC9A4C000452EA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		304BBCB919FC99BB000452EA /* DCalendarUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCalendarUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		304BBCBE19FC99BB000452EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304BBCBF19FC99BB000452EA /* DCalendarUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCalendarUtilTests.swift; sourceTree = "<group>"; };
+		304BBCC919FC9A4C000452EA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		304BBCA719FC99BB000452EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				304BBCC919FC9A4C000452EA /* README.md */,
 				304BBCA819FC99BB000452EA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304BBCCA19FC9A4C000452EA /* README.md in Sources */,
 				304BBCAC19FC99BB000452EA /* ViewController.swift in Sources */,
 				304BBCAA19FC99BB000452EA /* AppDelegate.swift in Sources */,
 			);
@@ -289,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
